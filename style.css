@@ -1,20 +1,46 @@
+* {
+    overflow-y: hidden;
+}
 
-.left {
+.left, .settings-title {
+    background-image: linear-gradient(90deg, darkblue, rebeccapurple);
+    display: grid;
+}
+
+.settings-title {
     position: absolute;
     z-index: 2;
     left: 0%;
     top: 0%;
     width: 100%;
     max-height: fit-content;
-    background-image: linear-gradient(90deg, darkblue, rebeccapurple);
     color: whitesmoke;
     border-radius: 1px;
+    padding-bottom: 15px;
+    font-size: 28px;
 }
 
-.settings-title {
-    max-width: 100%;
+.settings-title > h2 {
     padding-left: 250px;
+}
+
+.left {
+    z-index: 3;
+    left: 0%;
+    top: 15%;
+    max-width: 20%;
+    position: absolute;
+    height: 100%;
     font-size: 28px;
     font-weight: 400;
     font-family: sans-serif;
+    border-bottom-right-radius: 5px;
+}
+
+.left h4 {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 15px;
 }
