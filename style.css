@@ -77,3 +77,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+footer {
+    top: 90%;
+    left: 40%;
+    position: absolute;
+}
