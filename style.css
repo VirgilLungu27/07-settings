@@ -17,7 +17,7 @@
     color: whitesmoke;
     border-radius: 1px;
     padding-bottom: 15px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .settings-title > h2 {
@@ -27,7 +27,7 @@
 .left {
     z-index: 3;
     left: 0%;
-    top: 15%;
+    top: 13%;
     max-width: 20%;
     position: absolute;
     height: 100%;
@@ -43,4 +43,10 @@
     padding-right: 30px;
     color: white;
     font-size: 15px;
+}
+
+.left h4:hover {
+    cursor: pointer;
+    transform: scaleY(1.1);
+    transition: transform 1s;
 }
